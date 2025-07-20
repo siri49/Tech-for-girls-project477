@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f8cdda, #1d2b64);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #33333355;
+  width: 90%;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #6a0572;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #6a0572;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #9c1c9c;
+}
+
+.share-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#successMessage {
+  margin-top: 20px;
+  background: #e0ffe0;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  color: green;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
